@@ -1,0 +1,22 @@
+.wrap-contact {
+  width: 30%;
+  height: 65vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .coordonnees {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5% 0;
+
+    p {
+      margin-bottom: 0;
+      margin-left: 5%;
+      font-size: 1.5em;
+      text-align: center;
+    }
+  }
+}
